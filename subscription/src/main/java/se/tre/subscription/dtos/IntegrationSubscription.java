@@ -2,6 +2,6 @@ package se.tre.subscription.dtos;
 
 public record IntegrationSubscription(
         String subscriptionId,
-        String msisdn,
+        String phoneNumber,
         IntegrationEndUser endUser) {
 }
